@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
+import Card from "./components/Card";
 
 const App = () => {
   return (
     <>
-    <h1>heello ishan !</h1>
-    <h2>this is ishan nandwal the great person</h2>
+    <Card/>
     </>
   )
 }
