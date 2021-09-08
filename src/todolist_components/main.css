@@ -82,6 +82,9 @@ float: left;
     /* width: fit-content; */
     /* border: 2px solid red; */
 }
+.navbar-nav{
+    text-align: center;
+}
 @media screen and (min-width:500px) {
    #center{
     /* left: 30%; */

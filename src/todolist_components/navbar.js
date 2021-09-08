@@ -25,9 +25,9 @@ const Navbar = () => {
                     
                 <ul className="navbar-nav">
                     <li className="nav-item"><a href="#" className="nav-link">home</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link">about</a></li>
-                    <li className="nav-item"><a href="#" onClick={res} className="nav-link">restaurant</a></li>
-                    <li className="nav-item"><a href="#" className="nav-link">profile</a></li>
+                    <li className="nav-item"><a href="https://ishannandwal7.github.io/novelcoronalive.github.io/about.html" className="nav-link">about</a></li>
+                    <li className="nav-item"><a href="#" onClick={res} className="nav-link disabled" >restaurant</a></li>
+                    <li className="nav-item"><a href="#" className="nav-link disabled">profile</a></li>
                 </ul>
                 </div>
             </nav>
