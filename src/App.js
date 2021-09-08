@@ -1,10 +1,13 @@
 import React from 'react';
-import Card from "./components/Card";
-
+import Navbar from "./todolist_components/navbar";
+// import "../src/Bootstrap.css";
+import "./App.css";
+import Main from './todolist_components/main';
 const App = () => {
   return (
     <>
-    <Card/>
+      <Navbar/>
+      <Main/>
     </>
   )
 }
