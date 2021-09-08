@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    text-transform: capitalize;
+    padding: 0;
+
+}
+#center{
+    position: relative;
+    text-align: center;
+    margin-top: 13%;
+    width: fit-content;
+}
+.inpf{
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.item_val{
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+#op{
+    width: 100%;
+    margin-top: 10px;
+    text-align: right;
+}
+h3{
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: left;
+    /* text-overflow:ellipsis; */
+float: left;
+}
+/* .itemlist{
+    border: 2px solid black;
+} */
+.inpf>button{
+    padding: 6px 12px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+.inpf>input,.inpf>button{
+height: 40px;
+border: 2px solid grey;
+border-radius: 4px;
+}

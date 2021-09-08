@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    text-transform: capitalize;
+    padding: 0;
+
+}
+#center{
+    position: absolute;
+    text-align: center;
+    margin-top: 13%;
+    width: 100%;
+    /* left: 30%; */
+    
+    /* border: 2px solid red; */
+}
+.inpf{
+    width: 100%;
+}
+.nav-brand>a{
+    color: white;
+    text-decoration: none;
+}
+.nav-brand:hover{
+    text-decoration: none;
+    color: red;
+}
+h1{
+    margin: 20px;
+}
+.item_val{
+    margin: 10px 0px;
+    /* border-radius: 5px; */
+    /* border:  2px solid red; */
+    text-align: right;
+    justify-content: center;
+    border-radius: 8px;
+    left: 50%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #212529;
+
+}
+/* 
+h3{
+    /* border: 2px solid red; 
+    /* margin: 8px; 
+    width: 50%;
+    text-align: left;
+    text-overflow:clip;
+float: left;
+} */
+.btn-group{
+    /* border: 2px solid green; */
+    width: fit-content;
+    margin: 0px 7px 0px  0px;
+    /* margin: 0px !important; */
+    padding: 0px !important;
+}
+.btn-group button{
+    background-color: #212529 !important;
+    color: white;
+}
+.btn-group>button:hover{
+    color: red;
+}
+.showitem-val{
+    /* width: 50%; */
+    /* border: 2px solid red; */
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    /* text-overflow: ellipsis; */
+    text-align: left;
+    width: 60%;
+    margin-top: 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+.showitem-val>h3{
+    margin: 0px;
+    /* width: fit-content; */
+    /* border: 2px solid red; */
+}
+@media screen and (min-width:500px) {
+   #center{
+    /* left: 30%; */
+    top: 30%;
+    margin-top: 0;
+       width: 100%;
+   }
+   .op{
+       width: 40%;
+       position: relative;
+       left: 30%;
+   }
+   #ffoot{
+       margin-top: 20%;
+   }
+   .showitem-val{
+       margin-left: 20px;
+   }
+   .navbar-nav{
+    position: absolute;
+    right: 0;
+    left: 100;
+    float: right;
+}
+  
+
+}
+
+.itemlist{
+    margin: 10px 0px;
+    /* border: 2px solid gray; */
+    /* position: relative; */
+    /* width: fit-content; */
+    border-radius: 8px;
+    /* color: white; */
+    padding: 10px;
+    /* background-color: blue; */
+    /* justify-content: center; */
+  
+}
+.parentdiv{
+    height: 100%;
+    width: 100%;
+    border: red;
+}
+.inpf>button{
+    padding: 6px 12px;
+    background-color: #212529;
+    color: #FFFFFF;
+    border: 2px solid #212529;
+    border-radius: 6px;
+}
+.inpf>input,.inpf>button{
+height: 40px;
+border: 2px solid grey;
+border-radius: 4px;
+}

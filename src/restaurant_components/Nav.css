@@ -1,0 +1,12 @@
+#iop{
+    position: fixed ;
+    right: 0 ;
+   
+    left: 100;
+    /* float: right; */
+    /* float: left !important; */
+}
+#ishan{
+   float: right !important;
+   
+}

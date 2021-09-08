@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from 'react';
+import Navbar from "./todolist_components/navbar";
+// import "../src/Bootstrap.css";
+import "./App.css";
+import Main from './todolist_components/main';
 const App = () => {
   return (
     <>
-    <h1>you are in master branch ishan !</h1>
+      <Navbar/>
+      <Main/>
     </>
   )
 }
